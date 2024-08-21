@@ -333,18 +333,18 @@
 				<div class="col-md-6 half p-3 p-md-5 ftco-animate heading-section fadeInUp ftco-animated">
 					<span class="subheading">Booking an Appointment</span>
 					<h2 class="mb-4">Free Consultation</h2>
-					<form action="#" class="consultation">
+					<form action="process_form.php" method="post" class="consultation">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
+							<input type="text" class="form-control" name="name" placeholder="Your Name">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Email">
+							<input type="email" class="form-control" name="email" placeholder="Your Email">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
+							<input type="text" class="form-control" name="services" placeholder="Subject">
 						</div>
 						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="7" class="form-control"
+							<textarea name="message" cols="30" rows="7" class="form-control"
 								placeholder="Message"></textarea>
 						</div>
 						<div class="form-group">
