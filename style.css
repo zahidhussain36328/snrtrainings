@@ -446,7 +446,11 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+  .text-md-light{
+    color: #d6d6d6;
+  }
   @media (min-width: 576px) {
+   
     .container {
       max-width: 540px; } }
   @media (min-width: 768px) {
@@ -2610,6 +2614,9 @@ p.last-paragraph {
   line-height: 170%;
 }
 @media screen and (max-width: 479px) {
+  .text-md-light{
+    color: #171a1d;
+  }
   .topic-wrapper {
       grid-row-gap: 50px;
       grid-template-columns: 1fr;

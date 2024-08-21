@@ -96,14 +96,14 @@
 					<div class="media-body">
 						<span class="num">01</span>
 						<h3 class="heading mb-3"><a href="#">Money Making Skills</a></h3>
-						<p class="small-text text-light">Acquire valuable skills that can boost your earning potential.</p>
+						<p class="small-text text-md-light">Acquire valuable skills that can boost your earning potential.</p>
 					</div>
 				</div>
 				<div class="col-md-3 services align-self-stretch ftco-animate fadeInUp ftco-animated">
 					<div class="media-body">
 						<span class="num">02</span>
 						<h3 class="heading mb-3"><a href="#">Hands on Experience during Training</a></h3>
-						<p class="small-text text-light">Gain practical skills through immersive, hands-on projects.</p>
+						<p class="small-text text-md-light">Gain practical skills through immersive, hands-on projects.</p>
 					</div>
 				</div>
 				<div class="col-md-3 services align-self-stretch ftco-animate fadeInUp ftco-animated">
@@ -111,14 +111,14 @@
 						<span class="num">03</span>
 						<h3 class="heading mb-3"><a href="#">Internship & Job Opportunities
 						</a></h3>
-						<p class="small-text text-light">Access exclusive internships and career placement services.</p>
+						<p class="small-text text-md-light">Access exclusive internships and career placement services.</p>
 					</div>
 				</div>
 				<div class="col-md-3 services align-self-stretch ftco-animate fadeInUp ftco-animated">
 					<div class="media-body">
 						<span class="num">04</span>
 						<h3 class="heading mb-3"><a href="#instructors">Highly Experienced Instructors</a></h3>
-						<p class="small-text text-light">Learn from industry veterans with real-world expertise.</p>
+						<p class="small-text text-md-light">Learn from industry veterans with real-world expertise.</p>
 					</div>
 				</div>
 			</div>
