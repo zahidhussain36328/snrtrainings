@@ -9710,6 +9710,74 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+
+.icon {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.laravel-icon {
+  color: #E8503E;
+}
+
+/* .django-icon {
+  color: #E8503E;
+} */
+
+/* details page style */
+.course-header {
+  background-color: #f8f9fa;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+}
+.module-list {
+  margin-bottom: 30px;
+}
+.module-list h3 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.module-item {
+  margin-bottom: 15px;
+}
+.module-item h4 {
+  margin-bottom: 5px;
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+/* whatsapp button */
+#whatsapp {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.btn-whatsapp {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+}
+.btn-whatsapp i {
+    margin-right: 10px;
+}
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);

@@ -18,7 +18,7 @@
 
 	<link href="./css.css" rel="stylesheet">
 	<link href="./playfair.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="./animate.css">
 
@@ -43,6 +43,10 @@
 			animation-play-state: paused !important;
 		} ;
 	</style> 
+
+	<style>
+		
+    </style>
 </head>
 
 <body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
@@ -54,7 +58,7 @@
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
-
+				
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="#"
@@ -63,16 +67,23 @@
 							Us</a></li>
 					<li class="nav-item"><a href="#courses"
 							class="nav-link">Courses</a></li> 
-					<li class="nav-item"><a href="#instructors"
-							class="nav-link">Our Instructors</a></li> 
+					<!-- <li class="nav-item"><a href="#instructors"
+							class="nav-link">Our Instructors</a></li>  -->
 					<li class="nav-item"><a href="#contact"
 							class="nav-link">Contact Us</a></li>
+					<li class="nav-item"> <a href="https://wa.me/+923124212189?text=I want to know about courses you are offering" target="_blank" class="btn btn-success">
+						<i class="fab fa-whatsapp"></i> WhatsApp
+					</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- END nav -->
-
+	<section id="whatsapp">
+		<a href="https://wa.me/+923124212189?text=I want to know about courses you are offering" target="_blank" class="btn-whatsapp">
+			<i class="fab fa-whatsapp"></i> Chat with us on WhatsApp
+		</a>
+	</section>
 	<div class="hero-wrap js-fullheight"
 		style="background-image: url(&quot;images/hero-imag1.jpg&quot;); height: 641px; background-position: 50% 0px;"
 		data-stellar-background-ratio="0.5">
@@ -83,7 +94,7 @@
 				<div class="col-md-6 ftco-animate fadeInUp ftco-animated">
 					<h2 class="subheading">Inspiring Career with Standard</h2>
 					<h1 class="mb-4">Empower Your Future with Expert Training</h1>
-					<p><a href="#contact" class="btn-custom mr-md-4">Request A Quote <span class="ion-ios-arrow-forward"></span></a>  </p>
+					<p><a href="#contact" class="btn-custom mr-md-4">Contact Now <span class="ion-ios-arrow-forward"></span></a>  </p>
 				</div>
 			</div>
 		</div>
@@ -154,51 +165,52 @@
 			</div>
 		</div>
 	</section>
-	<!-- Courses -->
-	<div class="topic-section pt py-md-5 py-3 my-md-5" id="courses">
+	<!-- what will we learn -->
+	<div class="topic-section pt py-md-5 py-3 my-md-5" >
 		<div class="container w-container">
 			<div class="row justify-content-center pb-3">
 				<div class="col-md-7 text-center heading-section ftco-animate fadeInUp ftco-animated">
-					<span class="subheading">Our Courses</span>
+					<!-- <span class="subheading">Our Courses</span> -->
 					<h2 class="mb-4 text-capitalize">What will we learn?</h2>
 				</div>
 			</div> 
 			<div class="topic-wrapper">
 				<div class="topic-block ftco-animate fadeInUp ftco-animated">
-					<div class="topic-image-block"><img src="./images/topic-one.svg" loading="lazy" alt="Topic One"></div>
+					<div class="topic-image-block"><img src="./images/topic-five.svg" loading="lazy" alt="Topic Five"></div>
 					<div class="topic-content-block">
-						<h6 class="topic-title">Advanced Analytics</h6>
-						<p class="last-paragraph">Advanced Analytics autonomously examines data using sophisticated tools.</p>
+						<h6 class="topic-title">Frontend Development</h6>
+						<p class="last-paragraph">Learn to Develop the website frontend using HTML, CSS, and JavaScript, incorporating libraries i.e, Bootstrap and jQuery..</p>
 					</div>
 				</div>
 				<div class="topic-block ftco-animate fadeInUp ftco-animated">
 					<div class="topic-image-block"><img src="./images/topic-two.svg" loading="lazy" alt="Topic two"></div>
 					<div class="topic-content-block">
-						<h6 class="topic-title">Artificial Intelligence</h6>
-						<p class="last-paragraph">Artificial intelligence (AI) applies advanced analysis and logic-based techniques.</p>
+						<h6 class="topic-title">Backend Development</h6>
+						<p class="last-paragraph">Master the fundamentals of backend development to build robust, scalable, and secure web applications that power the modern web.</p>
+					</div>
+				</div>
+				<div class="topic-block ftco-animate fadeInUp ftco-animated">
+					<div class="topic-image-block"><img src="./images/topic-one.svg" loading="lazy" alt="Topic One"></div>
+					<div class="topic-content-block">
+						<h6 class="topic-title">Bug Fixing</h6>
+						<p class="last-paragraph">Learn the essential skills of bug fixing and error handling in web development to ensure your applications run smoothly, efficiently, and error-free.</p>
 					</div>
 				</div>
 				<div class="topic-block ftco-animate fadeInUp ftco-animated">
 					<div class="topic-image-block"><img src="./images/topic-three.svg" loading="lazy" alt="Topic three"></div>
 					<div class="topic-content-block">
-						<h6 class="topic-title">Cloud Solutions</h6>
-						<p class="last-paragraph">Cloud computing is the on-demand availability of computer system resources.</p>
+						<h6 class="topic-title">Advance Frameworks</h6>
+						<p class="last-paragraph">Delve into advanced web development frameworks like Django, Flask, and Laravel to create powerful, scalable, and feature-rich applications with ease and efficiency.</p>
 					</div>
 				</div>
 				<div class="topic-block ftco-animate fadeInUp ftco-animated">
 					<div class="topic-image-block"><img src="./images/topic-four.svg" loading="lazy" alt="Topic Four"></div>
 					<div class="topic-content-block">
-						<h6 class="topic-title">Development</h6>
-						<p class="last-paragraph">Web development is the work involved in developing a website for the Internet or an intranet.</p>
+						<h6 class="topic-title">Deployment</h6>
+						<p class="last-paragraph">Gain practical experience in deploying web applications on cPanel, a widely-used control panel, to efficiently manage hosting, domains, databases, and more .</p>
 					</div>
 				</div>
-				<div class="topic-block ftco-animate fadeInUp ftco-animated">
-					<div class="topic-image-block"><img src="./images/topic-five.svg" loading="lazy" alt="Topic Five"></div>
-					<div class="topic-content-block">
-						<h6 class="topic-title">DevOps</h6>
-						<p class="last-paragraph">DevOps is a set of practices that combines software development and IT operations.</p>
-					</div>
-				</div>
+				
 				<div class="topic-block ftco-animate fadeInUp ftco-animated">
 					<div class="topic-image-block">
 						<img src="./images/topic-six.svg" loading="lazy" alt="Topic Six">
@@ -211,36 +223,44 @@
 			</div>
 		</div>
 	</div>
-	<!-- Instructors -->
-	<section class="ftco-section ftco-no-pt" id="instructors">
+	<!-- Courses -->
+	<section class="ftco-section ftco-no-pt" id="courses">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 text-center heading-section ftco-animate fadeInUp ftco-animated">
-					<span class="subheading">Our Instructors</span>
-					<h2 class="mb-4 text-capitalize">meet our Instructors</h2>
+					<span class="subheading">Courses</span>
+					<h2 class="mb-4 text-capitalize">Courses we offer</h2>
 				</div>
 			</div>
 			<div class="row no-gutters">
+				<div class="col-lg-3"></div>
 				<div class="col-lg-3 col-sm-6 mb-md-0 mb-3">
 					<div class="block-2 ftco-animate fadeInUp ftco-animated">
 						<div class="flipper">
-							<div class="front" style="background-image: url(./images/person_1.jpg);">
+							<!-- <div class="front" style="background-image: url(./images/Laravel-Development-Hero-1.png);"> -->
+							<div class="front" >
+								<div class="icon laravel-icon">
+									<i class="fa-brands fa-laravel"></i>
+								</div>
 								<div class="box">
-									<h2>Richard Anderson</h2>
-									<p>Data Analyst</p>
+									<h2>PHP - Laravel  </h2>
+									<p>Web Development</p>
+									<h2>PKR 80,000/-</h2>
 								</div>
 							</div>
 							<div class="back">
 								<!-- back content -->
 								<blockquote>
-									<p>“Expert in interpreting complex data sets to provide actionable insights, drive strategic decisions, and improve business performance.”</p>
+									<p>Explore Laravel web development, a robust PHP framework that simplifies web development, boosts productivity, and enables you to build elegant, high-performance applications with ease.</p>
 								</blockquote>
-								<div class="author d-flex">
-									<div class="image align-self-center">
-										<img src="./person_1.jpg" alt="">
+								<div class="author d-flex justify-content-center">
+									<!-- <div class="image align-self-center">
+										<img src="./images/Laravel-Development-Hero.png" alt="">
+									</div> -->
+									<div class="name align-self-center ">
+										<a href="Laravel-course-details.html" class="btn btn-secondary"> View Outline </a> 
+										<!-- <span class="position">Data Analyst</span> -->
 									</div>
-									<div class="name align-self-center ml-3">Richard Anderson <span
-											class="position">Data Analyst</span></div>
 								</div>
 							</div>
 						</div>
@@ -249,79 +269,41 @@
 				<div class="col-lg-3 col-sm-6 mb-md-0 mb-3">
 					<div class="block-2 ftco-animate fadeInUp ftco-animated">
 						<div class="flipper">
-							<div class="front" style="background-image: url(./images/person_2.jpg);">
+							<!-- <div class="front" style="background-image: url(./images/django.png);"> -->
+								<div class="front">
+								<div class="icon django-icon" >
+									<!-- <i class="fa-brands fa-python"></i> -->
+									<i class="fa-solid fa-code"></i>
+								</div>
+								
 								<div class="box">
-									<h2>Jefford Maxillin</h2>
-									<p>Web Developer</p>
+									<h2>Python - Django</h2>
+									<p>Web Development</p>
+									<h2>PKR 80,000/-</h2>
+
 								</div>
 							</div>
 							<div class="back">
 								<!-- back content -->
 								<blockquote>
-									<p>“Specializes in creating and maintaining websites, ensuring a seamless user experience with cutting-edge web technologies and design principles.”</p>
+									<p>Explore Django web development, a Python framework that streamlines web development and integrates seamlessly with frontend technologies to create secure, scalable applications.</p>
 								</blockquote>
-								<div class="author d-flex">
-									<div class="image align-self-center">
+								<div class="author d-flex justify-content-center">
+									<!-- <div class="image align-self-center">
 										<img src="./person_2.jpg" alt="">
+									</div> -->
+									<div class="name align-self-center">
+										<a href="django-course-details.html" class="btn btn-secondary"> View Outline </a> 
+
+										<!-- <span class="position">Web Developer</span> -->
 									</div>
-									<div class="name align-self-center ml-3">Jefford Maxillin<span
-											class="position">Web Developer</span></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6 mb-md-0 mb-3">
-					<div class="block-2 ftco-animate fadeInUp ftco-animated">
-						<div class="flipper">
-							<div class="front" style="background-image: url(/images/person_3.jpg);">
-								<div class="box">
-									<h2>Carlos Obing</h2>
-									<p>Data Analyst</p>
-								</div>
-							</div>
-							<div class="back">
-								<!-- back content -->
-								<blockquote>
-									<p>“Focuses on designing, developing, and testing software applications and systems to solve complex problems and meet user needs.”</p>
-								</blockquote>
-								<div class="author d-flex">
-									<div class="image align-self-center">
-										<img src="./person_3.jpg" alt="">
-									</div>
-									<div class="name align-self-center ml-3">Carlos Obing <span
-											class="position">Data Analyst</span></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 mb-md-0 mb-3">
-					<div class="block-2 ftco-animate fadeInUp ftco-animated">
-						<div class="flipper">
-							<div class="front" style="background-image: url(/images/person_4.jpg);">
-								<div class="box">
-									<h2>Nathan Smith</h2>
-									<p>Product Manager</p>
-								</div>
-							</div>
-							<div class="back">
-								<!-- back content -->
-								<blockquote>
-									<p>“Even the all-powerful Pointing has no control about the blind texts it is an
-										almost unorthographic life One day however a small line of blind text ”</p>
-								</blockquote>
-								<div class="author d-flex">
-									<div class="image align-self-center">
-										<img src="./person_4.jpg" alt="">
-									</div>
-									<div class="name align-self-center ml-3">Nathan Smith <span
-											class="position">Product Manager</span></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div class="col-lg-3"></div>
+				
 			</div>
 		</div>
 	</section>
@@ -440,70 +422,71 @@
 	</section>
 	<!-- Footer -->
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">About snrtrainings</h2>
-						<p>At SNR Trainings, we are committed to your success. Join us, and start your journey where success begins—at SNR Trainings.</p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate fadeInUp ftco-animated"><a
-									href="#"><span
-										class="icon-twitter"></span></a></li>
-							<li class="ftco-animate fadeInUp ftco-animated"><a
-									href="#"><span
-										class="icon-facebook"></span></a></li>
-							<li class="ftco-animate fadeInUp ftco-animated"><a
-									href="#"><span
-										class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div> 
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Trainings Hours</h2>
-						<div class="opening-hours">
-							<h4>Opening Days:</h4>
-							<p class="pl-3">
-								<span>Monday – Friday : 9am to 5 pm</span> 
-							</p>
-							<h4>Vacations:</h4>
-							<p class="pl-3">
-								<span>All Saturday, Sunday Days &</span>
-								<span>All Official Holidays</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text"> Al Saeed Chowk Saggian, Bypass Lahore-Jaranwala Rd, Lahore, Pakistan</span></li>
-								<li><a href="tel:+923006705620"><span
-											class="icon icon-phone"></span><span class="text">+92 300 6705620</span></a>
-								</li>
-								<li><a href="mailto:noumanurahman@gmail.com"><span
-											class="icon icon-envelope"></span><span
-											class="text">info@snrtrainings.com</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">About snrtrainings</h2>
+                        <p>At SNR Trainings, we are committed to your success. Join us, and start your journey where success begins—at SNR Trainings.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate fadeInUp ftco-animated"><a
+                                    href="#"><span
+                                        class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate fadeInUp ftco-animated"><a
+                                    href="#"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate fadeInUp ftco-animated"><a
+                                    href="#"><span
+                                        class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Trainings Hours</h2>
+                        <div class="opening-hours">
+                            <h4>Opening Days:</h4>
+                            <p class="pl-3">
+                                <!-- <span>Monday – Friday : 9am to 5 pm</span>  -->
+                                <span>Monday – Friday </span> 
+                            </p>
+                            <h4>Vacations:</h4>
+                            <p class="pl-3">
+                                <span>All Saturday, Sunday Days &</span>
+                                <span>All Official Holidays</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <!-- <li><span class="icon icon-map-marker"></span><span class="text"> Al Saeed Chowk Saggian, Bypass Lahore-Jaranwala Rd, Lahore, Pakistan</span></li> -->
+                                <li><a href="tel:+923006705620"><span
+                                            class="icon icon-phone"></span><span class="text">+92 312 4212 189</span></a>
+                                </li>
+                                <li><a href="mailto:noumanurahman@gmail.com"><span
+                                            class="icon icon-envelope"></span><span
+                                            class="text">info@snrtrainings.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
 
-					<p> 
-						Copyright ©
-						<script>document.write(new Date().getFullYear());</script> All rights reserved by SNR Trainings 
-						 
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+                    <p> 
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved by SNR Trainings 
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 	<!-- loader -->
 	<div id="ftco-loader" class="fullscreen"><svg class="circular" width="48px" height="48px">
